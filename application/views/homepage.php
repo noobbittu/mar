@@ -452,11 +452,11 @@
                     <div class="border border-dark text-center"><p>20</p></div>
                 </div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark text-center"><p>.</p></div>
+                    <div class="col border border-dark text-center "><p>.</p></div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown">
                             <button class=" btn btn-secondary dropdown-toggle w-100 p-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                                ----------------------------------------------------Select sSem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -472,7 +472,7 @@
                     </div>
                     <div class="col text-center p-0 border border-dark ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -789,6 +789,23 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div 28 class="row ">
+                <div class="col-5 border border-dark text-center font-weight-bold"><p>Total points</p></div>
+                <div class="col-1 border border-dark text-center"></div>
+                <div class="col-1 border border-dark text-center"></div>
+                <div class="col-5 m-0 p-0 border border-dark">   
+                </div>
+            </div>
+            <div 29 class="row border border-dark">
+                <div class="col font-weight-bold text-center">
+                    <p><sup>*</sup>Place abide strictly to the Notes at the end of the Notice by Registrar,MAKAUT,WB regarding Mandatory Additional Requirement for earning B.Tech Degree</p>  
+                </div>
+            </div>
+            <div 30 class="row border border-dark">
+                <div class="col font-weight-bold text-center">
+                    <p><sup>*</sup>Annexure-I is to be retained in the Institute Records with all documentary proof of activities(to be varified by the University as and when required).</p>  
                 </div>
             </div>
         </form>
