@@ -73,7 +73,7 @@
                     <div class="col border border-dark text-center"><p>.</p></div>
                     <div class="col text-center p-0">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 -----------------------------------------------------Select Sem--------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -111,7 +111,7 @@
                     <div class="col border border-dark text-center"><p>.</p></div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pt-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -128,7 +128,7 @@
                     </div>
                     <div class="col text-center p-0 ">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-0 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -153,7 +153,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -178,7 +178,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -203,7 +203,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -228,7 +228,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -266,7 +266,7 @@
                     <div class="col border border-dark text-center"><p>.</p></div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -283,7 +283,7 @@
                     </div>
                     <div class="col text-center p-0 ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -308,7 +308,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -333,7 +333,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -358,7 +358,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -383,7 +383,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -408,7 +408,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -455,7 +455,7 @@
                     <div class="col border border-dark text-center"><p>.</p></div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -472,7 +472,7 @@
                     </div>
                     <div class="col text-center p-0 border border-dark ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -489,7 +489,7 @@
                     </div>
                     <div class="col text-center p-0 border border-dark ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -506,7 +506,7 @@
                     </div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -523,7 +523,7 @@
                     </div>
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -548,7 +548,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -573,7 +573,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -598,7 +598,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -623,7 +623,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -649,7 +649,7 @@
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
                             <!-- padding for dropdown has changed from before for area distribution-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -674,7 +674,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -699,7 +699,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -724,7 +724,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -749,7 +749,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -774,7 +774,7 @@
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
