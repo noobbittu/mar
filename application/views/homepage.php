@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     </head>
     <body class="container-fluid">
-        <div 1 class="row border border-dark justify-content-center">
+        <div 1 class="row border border-dark justify-content-center font-weight-bold">
             <p>Maulana Abul Kalam Azad University of Technology, West Bengal<br>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Record of Activities for Mendetory Additional Requirment
             </p>
@@ -59,7 +59,7 @@
                     <div class="border border-dark font-italic"><p>For 8 weeks duration</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
-                    <div class="border border-dark"><p>.</p></div>
+                    <div class="border border-dark "><p>.</p></div>
                     <div class="border border-dark"><p>20</p></div>
                     <div class="border border-dark"><p>16</p></div>
                 </div>
@@ -524,6 +524,257 @@
                     <div class="col text-center p-0 border border-dark">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
                             <button class=" btn btn-secondary dropdown-toggle w-100 pb-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 18 class="row ">
+                <div class="col-1 border border-dark text-center"><p>14</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Cultural Programme(Dance,Drama,Elocution,Music,etc.)</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 19 class="row ">
+                <div class="col-1 border border-dark text-center"><p>15</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Member of Professional Society</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 20 class="row ">
+                <div class="col-1 border border-dark text-center"><p>16</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Student Chapter</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 21 class="row ">
+                <div class="col-1 border border-dark text-center"><p>17</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Relevent Industry Visit & Report</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 22 class="row ">
+                <div class="col-1 border border-dark text-center"><p>18</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Photography activities in diffrent Club(Photography club,Cine club,Gitisansad)</p></div>
+                <div class="col-1 border border-dark text-center"><p>5</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <!-- padding for dropdown has changed from before for area distribution-->
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 23 class="row ">
+                <div class="col-1 border border-dark text-center"><p>19</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Participation in Yoga Camp(Certificates to be submitted)</p></div>
+                <div class="col-1 border border-dark text-center"><p>5</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 24 class="row ">
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Self-Entrepreneurship Programme</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 25 class="row ">
+                <div class="col-1 border border-dark text-center"><p>21</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Adventure Sports with Certification</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 26 class="row ">
+                <div class="col-1 border border-dark text-center"><p>22</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Training to under privilaged/Diffrently abled</p></div>
+                <div class="col-1 border border-dark text-center"><p>15</p></div>
+                <div class="col-1 border border-dark text-center"><p>30</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 27 class="row ">
+                <div class="col-1 border border-dark text-center"><p>23</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Community Service $ Allied Activities</p></div>
+                <div class="col-1 border border-dark text-center"><p>10</p></div>
+                <div class="col-1 border border-dark text-center"><p>20</p></div>
+                <div class="col-5 m-0 p-0">
+                    <div class="col border border-dark p-0 text-center">
+                        <div class="dropdown">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ----------------------------------------------------Select Sem---------------------------------------------            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
