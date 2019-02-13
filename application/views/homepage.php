@@ -23,40 +23,40 @@
         <form method="get" action="submit.php">
             <div 2 class="row border border-dark">
 
-                <div class="col-8 border border-dark">
+                <div class="col-8 border border-dark font-weight-bold">
                     <p>College Name (College Code): Academy of technology(169)</p>  
                 </div>
-                <div department class="col-4 border border-dark text-center">
+                <div department class="col-4 border border-dark text-center font-weight-bold">
                     <p>Department :<input type="text" name="dept.name"></p>
                 </div>
             </div>
             <div 3 class="row  p-0">
-                <div class="col-4 border border-dark text-center ">
+                <div class="col-4 border border-dark text-center font-weight-bold ">
                     <p>Student Name :<input type="text" name="student_name"></p>
                 </div>
-                <div class="col-4 border border-dark text-center">
+                <div class="col-4 border border-dark text-center font-weight-bold">
                     <p>University Roll NO. :<input type="text" name="roll_no"></p>
                 </div>
-                <div class="col-4 border border-dark text-center">
+                <div class="col-4 border border-dark text-center font-weight-bold">
                     <p>Registration No. :<input type="text" name="reg_no"></p>
                 </div>
             </div>
             <div 4 class="row ">
-                <div class="col-1 border border-dark text-center"><p>SI No.</p></div>
-                <div class="col-4 border border-dark text-center"><p>Activity</p></div>
-                <div class="col-1 border border-dark text-center"><p>points</p></div>
-                <div class="col-1 border border-dark p-2"><p>Max Allowed Points</p></div>
+                <div class="col-1 border border-dark text-center font-weight-bold"><p>SI No.</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Activity</p></div>
+                <div class="col-1 border border-dark text-center font-weight-bold"><p>points</p></div>
+                <div class="col-1 border border-dark p-2 font-weight-bold"><p>Max Allowed Points</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark text-center"><p>Points Earned</p></div>
-                    <div class="col border border-dark text-center"><p>Enter Marks Into Dropdown</p></div>
+                    <div class="col border border-dark text-center font-weight-bold"><p>Points Earned</p></div>
+                    <div class="col border border-dark text-center font-weight-bold"><p>Enter Marks Into Dropdown</p></div>
                 </div>
             </div>
             <div 5 class="row">
                 <div class="col-1 border border-dark text-center "><p>1</p></div>
                 <div class="col-4 p-0 text-center">
-                    <div class="border border-dark d-flex justify-content-center" ><p>MOOCS(SWAYAM/NPTL/Spoken Tutorial)per course</p></div>
-                    <div class="border border-dark"><p>For 12 weeks duration</p></div>
-                    <div class="border border-dark"><p>For 8 weeks duration</p></div>
+                    <div class="border border-dark d-flex justify-content-center font-weight-bold" ><p>MOOCS(SWAYAM/NPTL/Spoken Tutorial)per course</p></div>
+                    <div class="border border-dark font-italic"><p>For 12 weeks duration</p></div>
+                    <div class="border border-dark font-italic"><p>For 8 weeks duration</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
                     <div class="border border-dark"><p>.</p></div>
@@ -93,9 +93,9 @@
             <div 6 class="row p-0">
                 <div class="col-1 border border-dark text-center p-0"><p>2</p></div>
                 <div class="col-4 p-0  text-center">
-                    <div class="border border-dark" ><p>Tech fest/Teachers Day/Freshers Welcome</p></div>
-                    <div class="border border-dark"><p>Organizer</p></div>
-                    <div class="border border-dark"><p>Participents</p></div>
+                    <div class="border border-dark font-weight-bold" ><p>Tech fest/Teachers Day/Freshers Welcome</p></div>
+                    <div class="border border-dark font-italic"><p>Organizer</p></div>
+                    <div class="border border-dark font-italic"><p>Participents</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
                     <div class="border border-dark"><p>.</p></div>
@@ -147,7 +147,7 @@
             </div>
             <div 7 class="row ">
                 <div class="col-1 border border-dark text-center"><p>3</p></div>
-                <div class="col-4 border border-dark text-center"><p>Rural Reporting</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Rural Reporting</p></div>
                 <div class="col-1 border border-dark text-center"><p>5</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-5 m-0 p-0">
@@ -172,7 +172,7 @@
             </div>
             <div 8 class="row ">
                 <div class="col-1 border border-dark text-center"><p>4</p></div>
-                <div class="col-4 border border-dark text-center"><p>Tree Plantation and up keeping(per tree)</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Tree Plantation and up keeping(per tree)</p></div>
                 <div class="col-1 border border-dark text-center"><p>1</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-5 m-0 p-0">
@@ -197,7 +197,7 @@
             </div>
             <div 9 class="row ">
                 <div class="col-1 border border-dark text-center"><p>5</p></div>
-                <div class="col-4 border border-dark text-center"><p>Participation in Relief Camps</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Participation in Relief Camps</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-1 border border-dark text-center"><p>40</p></div>
                 <div class="col-5 m-0 p-0">
@@ -222,7 +222,7 @@
             </div>
             <div 10 class="row ">
                 <div class="col-1 border border-dark text-center"><p>6</p></div>
-                <div class="col-4 border border-dark text-center"><p>Participation in Debate/Group Discussion/Tech quiz</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Participation in Debate/Group Discussion/Tech quiz</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
@@ -248,9 +248,9 @@
             <div 11 class="row p-0">
                 <div class="col-1 border border-dark text-center p-0"><p>7</p></div>
                 <div class="col-4 p-0  text-center">
-                    <div class="border border-dark" ><p>Participation of wall magazine in institute level(magazine/article/internate)</p></div>
-                    <div class="border border-dark"><p>Editor</p></div>
-                    <div class="border border-dark"><p>Writer</p></div>
+                    <div class="border border-dark font-weight-bold" ><p>Participation of wall magazine in institute level(magazine/article/internate)</p></div>
+                    <div class="border border-dark font-italic"><p>Editor</p></div>
+                    <div class="border border-dark font-italic"><p>Writer</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
                     <div class="border border-dark"><p>.</p></div>
@@ -428,12 +428,12 @@
             <div 17 class="row p-0">
                 <div class="col-1 border border-dark text-center p-0"><p>13</p></div>
                 <div class="col-4 p-0  text-center">
-                    <div class="border border-dark" ><p>Participation in Sports & Games</p></div>
-                    <div class="border border-dark"><p>College level</p></div>
-                    <div class="border border-dark"><p>University level</p></div>
-                    <div class="border border-dark"><p>District level</p></div>
-                    <div class="border border-dark"><p>State level</p></div>
-                    <div class="border border-dark"><p>National/Internation level</p></div>
+                    <div class="border border-dark font-weight-bold" ><p>Participation in Sports & Games</p></div>
+                    <div class="border border-dark font-italic"><p>College level</p></div>
+                    <div class="border border-dark font-italic"><p>University level</p></div>
+                    <div class="border border-dark font-italic"><p>District level</p></div>
+                    <div class="border border-dark font-italic"><p>State level</p></div>
+                    <div class="border border-dark font-italic"><p>National/Internation level</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
                     <div class="border border-dark text-center"><p>.</p></div>
@@ -543,5 +543,4 @@
         </form>
         <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.bundle.min.js"></script> 
     </body>
-
 </html>
