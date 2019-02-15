@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     </head>
     <body class="container-fluid">
-        <div 1 class="row border border-dark justify-content-center font-weight-bold">
+        <div 1 class="row border border-dark justify-content-center font-weight-bold sm-12 m-12 l-12">
             <p>Maulana Abul Kalam Azad University of Technology, West Bengal<br>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Record of Activities for Mendetory Additional Requirment
             </p>
@@ -21,34 +21,34 @@
 
         </div>
         <form method="get" action="submit.php">
-            <div 2 class="row border border-dark">
+            <div 2 class="row border border-dark p-0">
 
-                <div class="col-8 border border-dark font-weight-bold">
+                <div class="col-8 col-xs-8 col-sm-8 col-md-8   border border-dark font-weight-bold">
                     <p>College Name (College Code): Academy of technology(169)</p>  
                 </div>
-                <div department class="col-4 border border-dark text-center font-weight-bold">
-                    <p>Department :<input type="text" name="dept.name"></p>
+                <div department class="col-4 col-xs-8 col-sm-4 col-md-4 border border-dark text-center font-weight-bold">
+                    <p>Department : <input type="dept" class="form-control" id="dept"></p>
                 </div>
             </div>
             <div 3 class="row  p-0">
                 <div class="col-4 border border-dark text-center font-weight-bold ">
-                    <p>Student Name :<input type="text" name="student_name"></p>
+                    <p>Student Name :<input type="student_name" class="form-control" id="student_name"></p>
                 </div>
                 <div class="col-4 border border-dark text-center font-weight-bold">
-                    <p>University Roll NO. :<input type="text" name="roll_no"></p>
+                    <p>University Roll NO. :<input type="rol_no" class="form-control" id="roll_no"></p>
                 </div>
                 <div class="col-4 border border-dark text-center font-weight-bold">
-                    <p>Registration No. :<input type="text" name="reg_no"></p>
+                    <p>Registration No. :<input type="reg_no" class="form-control" id="reg_no"></p>
                 </div>
             </div>
             <div 4 class="row ">
-                <div class="col-1 border border-dark text-center font-weight-bold"><p>SI No.</p></div>
-                <div class="col-4 border border-dark text-center font-weight-bold"><p>Activity</p></div>
-                <div class="col-1 border border-dark text-center font-weight-bold"><p>points</p></div>
-                <div class="col-1 border border-dark p-2 font-weight-bold"><p>Max Allowed Points</p></div>
-                <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark text-center font-weight-bold"><p>Points Earned</p></div>
-                    <div class="col border border-dark text-center font-weight-bold"><p>Enter Marks Into Dropdown</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center font-weight-bold"><p>SI No.</p></div>
+                <div class="col-4 col-xs-4 col-sm-4 col-md-4 border border-dark text-center font-weight-bold"><p>Activity</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center font-weight-bold"><p>points</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark p-2 font-weight-bold"><p>Max Allowed Points</p></div>
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 m-0 p-0">
+                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold"><p>Points Earned</p></div>
+                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold"><p>Enter Marks Into Dropdown</p></div>
                 </div>
             </div>
             <div 5 class="row">
