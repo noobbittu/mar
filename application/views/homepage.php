@@ -2,18 +2,32 @@
 <html>
     <head>
         <meta charset = "utf-8">
+        <!--RELATIVE URL-->
+
+<!--<script rel="text/javascript" text="text/javascript" href="/mar/static/js/bootstrap.min.js"></script>
+<script rel="text/javascript" text="text/javascript" href="/mar/static/js/jquery.min.js"></script>
+<link rel ="stylesheet" type="text/css" href="/mar/static/css/bootstrap.min.css" ><!--autoload.php and config.php on both file work has to be done only then codeigniter can understand the base url
+<link rel="stylesheet" type="text/css" href="/mar/static/css/homepage.css">-->
+
+        <!-- if you want to use the base url then you have to change the the base url to the local ip in config.php-->
+
+        <!--BASE URL-->
+
         <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/jquery.min.js"></script>
+        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.min.js"></script>
         <link rel ="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/bootstrap.min.css" ><!--autoload.php and config.php on both file work has to be done only then codeigniter can understand the base url-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/homepage.css">
-        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.min.js"></script>
+
+        <!--CDN-->
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
     </head>
     <body class="container-fluid">
-        <div 1 class="row border border-dark justify-content-center font-weight-bold sm-12 m-12 l-12">
+        <div 1 class="row border border-dark justify-content-center font-weight-bold ">
             <p>Maulana Abul Kalam Azad University of Technology, West Bengal<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Record of Activities for Mendetory Additional Requirment
+                Record of Activities for Mendetory Additional Requirment
             </p>
            <!-- <pre>Maulana Abul Kalam Azad University of Technology, West Bengal
  Record of Activities for Mendetory Additional Requirment 
@@ -21,9 +35,9 @@
 
         </div>
         <form method="get" action="submit.php">
-            <div 2 class="row border border-dark p-0">
+            <div 2 class="row p-0">
 
-                <div class="col-8 col-xs-8 col-sm-8 col-md-8   border border-dark font-weight-bold">
+                <div class="col-8 col-xs-8 col-sm-8 col-md-8   border border-dark font-weight-bold text-center ">
                     <p>College Name (College Code): Academy of technology(169)</p>  
                 </div>
                 <div department class="col-4 col-xs-8 col-sm-4 col-md-4 border border-dark text-center font-weight-bold">
@@ -44,37 +58,53 @@
             <div 4 class="row ">
                 <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center font-weight-bold"><p>SI No.</p></div>
                 <div class="col-4 col-xs-4 col-sm-4 col-md-4 border border-dark text-center font-weight-bold"><p>Activity</p></div>
-                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center font-weight-bold"><p>points</p></div>
-                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark p-2 font-weight-bold"><p>Max Allowed Points</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center font-weight-bold"><p>pts</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark p-2 font-weight-bold"><p>Max Points</p></div>
                 <div class="col-5 col-xs-5 col-sm-5 col-md-5 m-0 p-0">
-                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold"><p>Points Earned</p></div>
-                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold"><p>Enter Marks Into Dropdown</p></div>
+                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold p-1"><p>Points Earned</p></div>
+                    <div class="col col-xs col-sm col-md border border-dark text-center font-weight-bold p-3"><p>Select sem from Dropdown</p></div>
                 </div>
             </div>
             <div 5 class="row">
-                <div class="col-1 border border-dark text-center "><p>1</p></div>
-                <div class="col-4 p-0 text-center">
-                    <div class="border border-dark d-flex justify-content-center font-weight-bold" ><p>MOOCS(SWAYAM/NPTL/Spoken Tutorial)per course</p></div>
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 border border-dark text-center "><p>1</p></div>
+                <div class="col-4 col-xs-4 col-sm-4 col-md-4 p-0 text-center">
+                    <div class="border border-dark justify-content-center font-weight-bold" ><p>MOOCS per course</p></div>
                     <div class="border border-dark font-italic"><p>For 12 weeks duration</p></div>
                     <div class="border border-dark font-italic"><p>For 8 weeks duration</p></div>
                 </div>
-                <div class="col-1 p-0 text-center">
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 p-0 text-center">
                     <div class="border border-dark "><p>.</p></div>
                     <div class="border border-dark"><p>20</p></div>
                     <div class="border border-dark"><p>16</p></div>
                 </div>
-                <div class="col-1 p-0">
+                <div class="col-1 col-xs-1 col-sm-1 col-md-1 p-0">
                     <div class="border border-dark text-center"><p>.</p></div>
                     <div class="border border-dark text-center"><p>40</p></div>
                     <div class="border border-dark text-center"><p>40</p></div>
                 </div>
-                <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark text-center"><p>.</p></div>
-                    <div class="col border border-dark text-center"><p>.</p></div>
-                    <div class="col text-center p-0">
-                        <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                -----------------------------------------------------Select Sem--------------------------------------------            
+                <div class="col-5 col-xs-5 col-sm-5 col-md-5 m-0 p-0">
+                    <div class="col border border-dark text-center p-0"><p>.</p></div>
+                    <div class="col  text-center p-0">
+                        <div class="dropdown  ">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2  rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Sem1</a>
+                                <a class="dropdown-item" href="#">Sem2</a>
+                                <a class="dropdown-item" href="#">Sem3</a>
+                                <a class="dropdown-item" href="#">Sem4</a>
+                                <a class="dropdown-item" href="#">Sem5</a>
+                                <a class="dropdown-item" href="#">Sem6</a>
+                                <a class="dropdown-item" href="#">Sem7</a>
+                                <a class="dropdown-item" href="#">Sem8</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col  text-center p-0">
+                        <div class="dropdown ">
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -109,10 +139,10 @@
                 </div>
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark text-center"><p>.</p></div>
-                    <div class="col text-center p-0 border border-dark">
+                    <div class="col text-center p-0 ">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pt-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -128,8 +158,8 @@
                     </div>
                     <div class="col text-center p-0 ">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-0 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -150,25 +180,25 @@
                 <div class="col-4 border border-dark text-center font-weight-bold"><p>Rural Reporting</p></div>
                 <div class="col-1 border border-dark text-center"><p>5</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
-                <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
-                        <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Sem1</a>
-                                <a class="dropdown-item" href="#">Sem2</a>
-                                <a class="dropdown-item" href="#">Sem3</a>
-                                <a class="dropdown-item" href="#">Sem4</a>
-                                <a class="dropdown-item" href="#">Sem5</a>
-                                <a class="dropdown-item" href="#">Sem6</a>
-                                <a class="dropdown-item" href="#">Sem7</a>
-                                <a class="dropdown-item" href="#">Sem8</a>
-                            </div>
+
+                <div class="col  p-0 text-center">
+                    <div class="dropdown">
+                        <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Select Sem            
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Sem1</a>
+                            <a class="dropdown-item" href="#">Sem2</a>
+                            <a class="dropdown-item" href="#">Sem3</a>
+                            <a class="dropdown-item" href="#">Sem4</a>
+                            <a class="dropdown-item" href="#">Sem5</a>
+                            <a class="dropdown-item" href="#">Sem6</a>
+                            <a class="dropdown-item" href="#">Sem7</a>
+                            <a class="dropdown-item" href="#">Sem8</a>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div 8 class="row ">
                 <div class="col-1 border border-dark text-center"><p>4</p></div>
@@ -176,10 +206,10 @@
                 <div class="col-1 border border-dark text-center"><p>1</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -201,10 +231,10 @@
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-1 border border-dark text-center"><p>40</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -226,10 +256,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -248,26 +278,26 @@
             <div 11 class="row p-0">
                 <div class="col-1 border border-dark text-center p-0"><p>7</p></div>
                 <div class="col-4 p-0  text-center">
-                    <div class="border border-dark font-weight-bold" ><p>Participation of wall magazine in institute level(magazine/article/internate)</p></div>
+                    <div class="border border-dark font-weight-bold" ><p>Participation of wall magazine in institute</p></div>
                     <div class="border border-dark font-italic"><p>Editor</p></div>
                     <div class="border border-dark font-italic"><p>Writer</p></div>
                 </div>
                 <div class="col-1 p-0 text-center">
-                    <div class="border border-dark"><p>.</p></div>
+                    <div class="border border-dark p-0"><p>.</p></div>
                     <div class="border border-dark"><p>10</p></div>
                     <div class="border border-dark"><p>6</p></div>
                 </div>
                 <div class="col-1 p-0">
-                    <div class="border border-dark text-center"><p>.</p></div>
+                    <div class="border border-dark text-center p-0"><p>.</p></div>
                     <div class="border border-dark text-center"><p>20</p></div>
                     <div class="border border-dark text-center"><p>12</p></div>
                 </div>
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark text-center"><p>.</p></div>
-                    <div class="col text-center p-0 border border-dark">
+                    <div class="col text-center p-0">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -283,8 +313,8 @@
                     </div>
                     <div class="col text-center p-0 ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -306,10 +336,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -331,10 +361,10 @@
                 <div class="col-1 border border-dark text-center"><p>15</p></div>
                 <div class="col-1 border border-dark text-center"><p>30</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -352,14 +382,14 @@
             </div>
             <div 14 class="row ">
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
-                <div class="col-4 border border-dark text-center font-weight-bold"><p>Innovative Projects(other then course carriculum)</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Innovative Projects</p></div>
                 <div class="col-1 border border-dark text-center"><p>30</p></div>
                 <div class="col-1 border border-dark text-center"><p>60</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -381,10 +411,10 @@
                 <div class="col-1 border border-dark text-center"><p>8</p></div>
                 <div class="col-1 border border-dark text-center"><p>16</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -406,10 +436,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -453,10 +483,10 @@
                 </div>
                 <div class="col-5 m-0 p-0">
                     <div class="col border border-dark text-center "><p>.</p></div>
-                    <div class="col text-center p-0 border border-dark">
+                    <div class="col text-center p-0">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select sSem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -470,10 +500,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col text-center p-0 border border-dark ">
+                    <div class="col text-center p-0 ">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -487,10 +517,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col text-center p-0 border border-dark ">
+                    <div class="col text-center p-0">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -504,10 +534,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col text-center p-0 border border-dark">
+                    <div class="col text-center p-0">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -521,10 +551,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col text-center p-0 border border-dark">
+                    <div class="col text-center p-0">
                         <div class="dropdown"><!--I have changed the pb to 1 from 0-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 pb-1 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -542,14 +572,14 @@
             </div>
             <div 18 class="row ">
                 <div class="col-1 border border-dark text-center"><p>14</p></div>
-                <div class="col-4 border border-dark text-center font-weight-bold"><p>Cultural Programme(Dance,Drama,Elocution,Music,etc.)</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Cultural Programme(Dance,Drama,Music,etc.)</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -571,10 +601,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -596,10 +626,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -621,10 +651,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -642,15 +672,15 @@
             </div>
             <div 22 class="row ">
                 <div class="col-1 border border-dark text-center"><p>18</p></div>
-                <div class="col-4 border border-dark text-center font-weight-bold"><p>Photography activities in diffrent Club(Photography club,Cine club,Gitisansad)</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Photography activities in diffrent Clubs</p></div>
                 <div class="col-1 border border-dark text-center"><p>5</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
                             <!-- padding for dropdown has changed from before for area distribution-->
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem           
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -668,14 +698,14 @@
             </div>
             <div 23 class="row ">
                 <div class="col-1 border border-dark text-center"><p>19</p></div>
-                <div class="col-4 border border-dark text-center font-weight-bold"><p>Participation in Yoga Camp(Certificates to be submitted)</p></div>
+                <div class="col-4 border border-dark text-center font-weight-bold"><p>Participation in Yoga Camp</p></div>
                 <div class="col-1 border border-dark text-center"><p>5</p></div>
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -697,10 +727,10 @@
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -722,10 +752,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -747,10 +777,10 @@
                 <div class="col-1 border border-dark text-center"><p>15</p></div>
                 <div class="col-1 border border-dark text-center"><p>30</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-4 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -772,10 +802,10 @@
                 <div class="col-1 border border-dark text-center"><p>10</p></div>
                 <div class="col-1 border border-dark text-center"><p>20</p></div>
                 <div class="col-5 m-0 p-0">
-                    <div class="col border border-dark p-0 text-center">
+                    <div class="col p-0 text-center">
                         <div class="dropdown">
-                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ----------------------------------------------------Select Sem---------------------------------------------            
+                            <button class=" btn btn-secondary dropdown-toggle w-100 p-2 rounded-0 border border-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Sem            
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Sem1</a>
@@ -809,6 +839,6 @@
                 </div>
             </div>
         </form>
-        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.bundle.min.js"></script> 
+        <script rel="text/javascript" text="text/javascript" href="/static/js/bootstrap.bundle.min.js"></script> 
     </body>
 </html>

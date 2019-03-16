@@ -1,6 +1,9 @@
 <!--docktype html-->
 <html>
     <head>
+
+        <!--<link rel="stylesheet" type="text/css" href="/mar/static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/mar/static/css/registration_form.css">-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/registration_form.css">
     </head>
@@ -49,12 +52,17 @@
                 </div>
             </label>
             <br>
-            <button type="submit">submit</button>
-            <a href="path of login page"><button type="button">login</button></a>
+            <a href="homepage"><button type="button">Submit</button></a>
+            <a href="homepage"><button type="button">login</button></a>
         </form>
         <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.min.js"></script>
-        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/jquery.min.js"></script>
-        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/registration_form.js"></script>
         <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/bootstrap.bundle.min.js"></script>
+        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/jquery.min.js"></script>  
+        <script rel="text/javascript" text="text/javascript" href="<?php echo base_url() ?>static/js/registration_form.js"></script>
+        <!--<script rel="text/javascript" text="text/javascript" href="/mar/static/js/bootstrap.min.js"></script>
+        <script rel="text/javascript" text="text/javascript" href="/mar/static/js/bootstrap.bundle.min.js"></script>
+        <script rel="text/javascript" text="text/javascript" href="/mar/static/js/jquery.min.js"></script>  
+        <script rel="text/javascript" text="text/javascript" href="/mar/static/js/registration_form.js"></script>-->
+
     </body>
 </html>
