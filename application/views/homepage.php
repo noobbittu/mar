@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset = "utf-8">
+        
         <!--RELATIVE URL-->
 
 <!--<script rel="text/javascript" text="text/javascript" href="/mar/static/js/bootstrap.min.js"></script>

@@ -9,4 +9,9 @@ class Registration_form extends CI_controller {
         $this->load->view('registration_form.php');
     }
 
+    public function submit() {
+        $this->load->model('registration_submit');
+        $this->registration_submit->insert_data();
+    }
+
 }
